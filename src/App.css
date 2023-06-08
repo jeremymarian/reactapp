@@ -1,6 +1,6 @@
 
 body{
-  background-color: rgba(207, 148, 158, 0.945);
+  background-color: inherit;
 }
 
 ul {
@@ -9,11 +9,11 @@ ul {
 }
 .App {
   list-style: none;
-  background-color: #df60f657;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100vh;
   
   
 }
@@ -44,6 +44,10 @@ ul {
   color: #61dafb;
 }
 
+.navbarpr{
+  width: 200vh;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -52,3 +56,26 @@ ul {
     transform: rotate(360deg);
   }
 }
+
+@media (min-width: 400px) { .navbarpr{
+  width: 100vh;
+}}
+
+
+@media (min-width: 576px) {.navbarpr{
+  width: 100vh;
+} }
+
+
+@media (min-width: 768px) {.navbarpr{
+  width: 100vh;
+}}
+
+
+@media (min-width: 992px) { .navbarpr{
+  width: 100vh;
+}}
+
+@media (min-width: 1200px) { .navbarpr{
+  width: 95%;
+} }
