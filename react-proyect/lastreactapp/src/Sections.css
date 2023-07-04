@@ -1,0 +1,33 @@
+.divless{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 50px;
+
+}
+
+
+@media (max-width: 575.98px) {
+    .divless{
+        grid-template-columns: repeat(1, 1fr)
+    }
+}
+
+@media (max-width: 767.98px) {    
+    .divless{
+    grid-template-columns: repeat(1, 1fr)
+    }
+}
+
+@media (max-width: 991.98px) { 
+   .divless{
+        grid-template-columns: repeat(2, 1fr)
+        }
+    }
+ 
+
+@media (max-width: 1199.98px) {    .divless{
+    grid-template-columns: repeat(2, 1fr)
+    }
+} 
+
